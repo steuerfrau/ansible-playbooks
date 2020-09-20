@@ -2,20 +2,24 @@ Playbook Name
 =========
 ansible-playbooks
 
-A skeleton directory structure for my Ansible playbooks.
+All my Ansible roles as branches in one GIT repository.
+
+Usage
+------------
+All branches prefixed with "prod" are ready to be used:
+
+```
+✘-HUP /srv/ansible-playbooks [prod_skeleton L|✚ 1] 
+09:03 $ git branch -v
+  master           bad263b Initial commit
+  prod_baseinstall 8eeb701 Created from prod_skeleton.
+* prod_skeleton    8eeb701 Created from prod_skeleton.
+```
+
+The branch "prod_skeleton" contains a basic directory structure und should be checked out to create a branch for a new playbook.
 
 Requirements
 ------------
-To fork to a new repository use the following steps:
-
-```
-git clone https://github.com/steuerfrau/playbook-skeleton.git new-repo-name
-cd new-repo-name
-git remote set-url origin https://github.com/steuerfrau/playbook-baseinstall.git
-git remote add upstream https://github.com/<new-repo-uri>
-git push origin master
-git push --all
-```
 
 Used Roles
 --------------
