@@ -34,3 +34,15 @@
 	path = roles/role_bi_time_chrony
 	url = https://github.com/steuerfrau/role_bi_time_chrony.git
 	branch = prod
+[submodule "roles/role_app_java"]
+	path = roles/role_app_java
+	url = https://github.com/steuerfrau/role_app_java.git
+	branch = prod
+[submodule "roles/role_app_mysql"]
+	path = roles/role_app_mysql
+	url = https://github.com/steuerfrau/role_app_mysql.git
+	branch = prod
+[submodule "roles/role_app_acs_mgmt"]
+	path = roles/role_app_acs_mgmt
+	url = https://github.com/steuerfrau/role_app_acs_mgmt.git
+	branch = prod
