@@ -1,0 +1,16 @@
+---
+# tasks file for use_default_vae
+
+- name: Display all variables/facts known for a host
+  debug:
+    var: hostvars[inventory_hostname]
+
+- name: Create a template with a variable with a default.
+  template:
+    src: templates/example_template.j2
+    dest: /root/file_from_template
+
+- name: Create a file that is named after a variable with a default.
+  file:
+    path: /root/{{ some_variable_with_a_default }}
+    state: touch

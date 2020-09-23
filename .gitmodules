@@ -50,3 +50,7 @@
 	path = roles/role_app_nfs
 	url = https://github.com/steuerfrau/role_app_nfs.git
 	branch = prod
+[submodule "roles/role_app_acs_mgmt_reset"]
+	path = roles/role_app_acs_mgmt_reset
+	url = https://github.com/steuerfrau/role_app_acs_mgmt_reset.git
+	branch = prod
