@@ -54,3 +54,7 @@
 	path = roles/role_app_acs_mgmt_reset
 	url = https://github.com/steuerfrau/role_app_acs_mgmt_reset.git
 	branch = prod
+[submodule "roles/role_app_acs_mgmt_init"]
+	path = roles/role_app_acs_mgmt_init
+	url = https://github.com/steuerfrau/role_app_acs_mgmt_init.git
+	branch = prod
