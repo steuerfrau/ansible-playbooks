@@ -15,6 +15,6 @@
     # - role_bi_time_chrony
     # - role_app_nfs
     # - role_app_mysql
-    # - role_app_acs_mgmt
-    - role_app_acs_mgmt_reset
-    - role_app_acs_mgmt_init
+    - role_app_acs_mgmt
+    #  - role_app_acs_mgmt_reset
+    #  - role_app_acs_mgmt_init
