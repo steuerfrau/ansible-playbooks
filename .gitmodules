@@ -58,3 +58,11 @@
 	path = roles/role_app_acs_mgmt_init
 	url = https://github.com/steuerfrau/role_app_acs_mgmt_init.git
 	branch = prod
+[submodule "roles/role_misc_repositories"]
+	path = roles/role_misc_repositories
+	url = https://github.com/steuerfrau/role_misc_repositories.git
+	branch = prod
+[submodule "roles/role_mod_repositories"]
+	path = roles/role_mod_repositories
+	url = git@github.com:steuerfrau/role_mod_repositories.git
+	branch = prod
