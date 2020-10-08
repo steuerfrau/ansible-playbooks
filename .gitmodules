@@ -1,70 +1,10 @@
-[submodule "roles/role_bi_packages_minimum"]
-	path = roles/role_bi_packages_minimum
-	url = https://github.com/steuerfrau/role_bi_packages_minimum.git
-	branch = prod
-[submodule "roles/role_bi_packages_max"]
-	path = roles/role_bi_packages_max
-	url = https://github.com/steuerfrau/role_bi_packages_max.git
-	branch = prod
-[submodule "roles/role_bi_packages_net"]
-	path = roles/role_bi_packages_net
-	url = https://github.com/steuerfrau/role_bi_packages_net.git
-	branch = prod
-[submodule "roles/role_bi_sysctl"]
-	path = roles/role_bi_sysctl
-	url = https://github.com/steuerfrau/role_bi_sysctl.git
-	branch = prod
 [submodule "inventories"]
 	path = inventories
 	url = https://github.com/steuerfrau/inventories.git
 	branch = testing
-[submodule "roles/role_bi_hostname"]
-	path = roles/role_bi_hostname
-	url = https://github.com/steuerfrau/role_bi_hostname.git
-	branch = prod
-[submodule "roles/role_bi_repositories"]
-	path = roles/role_bi_repositories
-	url = https://github.com/steuerfrau/role_bi_repositories.git
-	branch = prod
 [submodule "roles/role_bi_selinux"]
 	path = roles/role_bi_selinux
 	url = https://github.com/steuerfrau/role_bi_selinux.git
-	branch = prod
-[submodule "roles/role_bi_time_chrony"]
-	path = roles/role_bi_time_chrony
-	url = https://github.com/steuerfrau/role_bi_time_chrony.git
-	branch = prod
-[submodule "roles/role_app_java"]
-	path = roles/role_app_java
-	url = https://github.com/steuerfrau/role_app_java.git
-	branch = prod
-[submodule "roles/role_app_mysql"]
-	path = roles/role_app_mysql
-	url = https://github.com/steuerfrau/role_app_mysql.git
-	branch = prod
-[submodule "roles/role_app_acs_mgmt"]
-	path = roles/role_app_acs_mgmt
-	url = https://github.com/steuerfrau/role_app_acs_mgmt.git
-	branch = prod
-[submodule "roles/role_app_nfs"]
-	path = roles/role_app_nfs
-	url = https://github.com/steuerfrau/role_app_nfs.git
-	branch = prod
-[submodule "roles/role_app_acs_mgmt_reset"]
-	path = roles/role_app_acs_mgmt_reset
-	url = https://github.com/steuerfrau/role_app_acs_mgmt_reset.git
-	branch = prod
-[submodule "roles/role_app_acs_mgmt_init"]
-	path = roles/role_app_acs_mgmt_init
-	url = https://github.com/steuerfrau/role_app_acs_mgmt_init.git
-	branch = prod
-[submodule "roles/role_misc_repositories"]
-	path = roles/role_misc_repositories
-	url = https://github.com/steuerfrau/role_misc_repositories.git
-	branch = prod
-[submodule "roles/role_mod_repositories"]
-	path = roles/role_mod_repositories
-	url = git@github.com:steuerfrau/role_mod_repositories.git
 	branch = prod
 [submodule "roles/role_hv_kvm"]
 	path = roles/role_hv_kvm
@@ -73,12 +13,4 @@
 [submodule "roles/role_mod_netbridge_stdlinux"]
 	path = roles/role_mod_netbridge_stdlinux
 	url = git@github.com:steuerfrau/role_mod_netbridge_stdlinux.git
-	branch = prod
-[submodule "roles/role_mod_libviirt_net_create"]
-	path = roles/role_mod_libviirt_net_create
-	url = git@github.com:steuerfrau/role_mod_libviirt_net_create.git
-	branch = prod
-[submodule "roles/role_mod_libvirt_net_create"]
-	path = roles/role_mod_libvirt_net_create
-	url = git@github.com:steuerfrau/role_mod_libvirt_net_create.git
 	branch = prod
