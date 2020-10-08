@@ -2,11 +2,10 @@
 # file: site.yml
 - hosts: all
   roles:
-    - role_bi_packages_minimum # Change variable names.
-    - role_bi_packages_max # Change variable names.
-    - role_bi_packages_net # Change variable names.
-    - role_bi_sysctl # Change variable names.
+    - role_bi_packages_minimum
+    - role_bi_packages_max
+    - role_bi_packages_net
+    - role_bi_sysctl
     - role_bi_hostname
-    - role_bi_repositories
     - role_bi_selinux
     - role_bi_time_chrony
