@@ -14,3 +14,11 @@
 	path = roles/role_mod_netbridge_stdlinux
 	url = git@github.com:steuerfrau/role_mod_netbridge_stdlinux.git
 	branch = prod
+[submodule "roles/role_hv_kvm_acs_agent"]
+	path = roles/role_hv_kvm_acs_agent
+	url = git@github.com:steuerfrau/role_hv_kvm_acs_agent.git
+	branch = prod
+[submodule "roles/role_mod_repositories"]
+	path = roles/role_mod_repositories
+	url = git@github.com:steuerfrau/role_mod_repositories.git
+	branch = prod
