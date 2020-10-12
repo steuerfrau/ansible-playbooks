@@ -30,3 +30,7 @@
 	path = roles/role_app_mysql
 	url = git@github.com:steuerfrau/role_app_mysql.git
 	branch = prod
+[submodule "roles/role_app_acs_mgmt"]
+	path = roles/role_app_acs_mgmt
+	url = git@github.com:steuerfrau/role_app_acs_mgmt.git
+	branch = prod
